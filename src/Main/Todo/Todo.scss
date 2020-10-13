@@ -1,0 +1,40 @@
+@import './../../Styles.scss';
+
+
+.todo {
+    align-items: center;
+    background: $white;
+    height: 30px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px $shadow-black;
+    display: flex;
+    font-size: 12px;
+    cursor: pointer;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 3px 10px;
+
+
+
+    .action-parent {
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        cursor: pointer;
+        font-size: medium;
+
+        .undo {
+            color: $white;
+        }
+        .action {
+            color: $success-green;
+            
+        }
+
+        .delete {
+            color: $red;
+            
+        }
+    }
+}
