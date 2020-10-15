@@ -4,7 +4,7 @@ import Todo from '../Todo/Todo';
 import ToDoForm from '../ToDoForm/ToDoForm';
 import { Droppable } from 'react-beautiful-dnd';
 
-const Colomn = ({type, todos, completeTodo, startTodo, undoToDo, removeTodo, addTodo, droppableId}) => {
+const Colomn = ({type, todos, completeTodo, removeTodo, addTodo, droppableId}) => {
 
     return (
         <div className="todo-list mx-8">
@@ -21,7 +21,6 @@ const Colomn = ({type, todos, completeTodo, startTodo, undoToDo, removeTodo, add
                         index={index}
                         todo={todo}
                         completeTodo={completeTodo}
-                        undoToDo={undoToDo ? undoToDo :null}
                         removeTodo={removeTodo}
                       />
                     ))}

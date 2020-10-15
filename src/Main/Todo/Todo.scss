@@ -9,7 +9,7 @@
     box-shadow: 1px 1px 1px $shadow-black;
     display: flex;
     font-size: 12px;
-    cursor: pointer;
+    // cursor: pointer;
     justify-content: space-between;
     margin-bottom: 6px;
     padding: 3px 10px;
@@ -29,7 +29,9 @@
         }
         .action {
             color: $success-green;
-            
+        }
+        .start {
+            color: $ocean-blue;
         }
 
         .delete {
