@@ -1,0 +1,31 @@
+@import './../../Styles.scss';
+
+.backlog {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.45;
+}
+
+
+.todo-list {
+    background: $cream-white;
+    border-radius: 4px;
+    // max-width: 350px;
+    min-width: 30%;
+    padding: 5px;
+    
+    .backlog-header {
+        background-color: $gray;
+        height: 2px;
+    }
+    .inprogress-header {
+        background-color: $ocean-blue;
+        height: 2px;
+    }
+    .complete-header {
+        background-color: $success-green;
+        height: 2px;
+    }
+}
