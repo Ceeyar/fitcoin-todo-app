@@ -1,8 +1,6 @@
 import React from "react";
 import "./Main.scss";
-import { DragDropContext, Droppable } from "react-beautiful-dnd";
-import Todo from "./Todo/Todo";
-import ToDoForm from "./ToDoForm/ToDoForm";
+import { DragDropContext } from "react-beautiful-dnd";
 import { todoData } from './../Data/Data';
 import Colomn from "./Colomn/Colomn";
 
